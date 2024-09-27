@@ -16,7 +16,7 @@ import componentSeven from './assets/image-7.svg';
 import componentEight from './assets/image-8.svg';
 import componentNine from './assets/image-9.svg';
 import componentTen from './assets/image-10.svg';
-import componentEleven from '.-./assets/image-11.svg';
+import componentEleven from './assets/image-11.svg';
 
 function App() {
 
