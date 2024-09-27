@@ -16,6 +16,7 @@ import componentSeven from '../public/image-7.svg';
 import componentEight from '../public/image-8.svg';
 import componentNine from '../public/image-9.svg';
 import componentTen from '../public/image-10.svg';
+import componentEleven from '../public/image-11.svg';
 
 function App() {
 
@@ -44,60 +45,67 @@ function App() {
                 <div className={"image-one-container"}>
                     <img className={"image-one"} src={componentOne} alt={"Компонент 1"}/>
                 </div>
-                {/*<div className={"heading-one-container"}>*/}
-                {/*    <h1 className={"heading-one"}>*/}
-                {/*        THE FIRST HOT<br/>*/}
-                {/*        SAUCE MADE FOR<br/>*/}
-                {/*        COFFEE*/}
-                {/*    </h1>*/}
-                {/*</div>*/}
-                {/*<div className={"image-two-container"}>*/}
-                {/*    <div className="marquee">*/}
-                {/*        <img src={componentTwo} alt="Бегущая дорожка" className="marquee-image"/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                {/*<div className={"image-three-container"}>*/}
-                {/*    <img className={"image-three"} src={componentThree} alt={"Компонент 3"}/>*/}
-                {/*</div>*/}
-                {/*<div className={"image-four-container"}>*/}
-                {/*    <img className={"image-four"} src={componentFour} alt={"Компонент 4"}/>*/}
-                {/*</div>*/}
+
+                <div className={"image-two-container"}>
+                    <div className="marquee">
+                        <img src={componentTwo} alt="Бегущая дорожка" className="marquee-image"/>
+                    </div>
+                </div>
+                <div className={"image-three-container"}>
+                    <img className={"image-three"} src={componentThree} alt={"Компонент 3"}/>
+                </div>
+                <div className={"heading-one-container"}>
+                    <h1 className={"heading-one"}>
+                        THE FIRST HOT<br/>
+                        SAUCE MADE FOR<br/>
+                        COFFEE
+                    </h1>
+                </div>
+                <div className={"image-four-container"}>
+                    <img className={"image-four"} src={componentFour} alt={"Компонент 4"}/>
+                </div>
+                <div className={"image-eleven-container"}>
+                    <img className={"image-eleven"} src={componentEleven} alt={"Компонент 11"}/>
+                    <h2 className={'title'}>THROW<br/>SOME<br/>LAVA IN<br/>YOUR JAVA</h2>
+                    <img className={"image-eleven"} src={componentEleven} alt={"Компонент 11"}/>
+                </div>
                 {/*<div className={"image-five-container"}>*/}
                 {/*    <img className={"image-five"} src={componentFive} alt={"Компонент 5"}/>*/}
                 {/*</div>*/}
-                {/*<div className={"product-container"}>*/}
-                {/*    <div className={"back-images"}>*/}
-                {/*        <img className={"back-image-left-1"} src={backImageOne} alt={"Картинка 1 на фон"}/>*/}
-                {/*        <img className={"back-image-left-2"} src={backImageTwo} alt={"Картинка 2 на фон"}/>*/}
-                {/*        <img className={"back-image-right-2"} src={backImageTwo} alt={"Картинка 2 на фон"}/>*/}
-                {/*        <img className={"back-image-right-1"} src={backImageOne} alt={"Картинка 1 на фон"}/>*/}
-                {/*    </div>*/}
-                {/*    <div className={"block-one-container"}>*/}
-                {/*        <img className={"back-image"} src={blockBackground} alt={"background block"}/>*/}
-                {/*        /!*<div className={"block-one"}>*!/*/}
-                {/*        /!*    <h3 className={"mini-heading-block"}>TANGLY AND TINGLY</h3>*!/*/}
-                {/*        /!*    <h2 className={"heading-block"}>LIGHT ROAST BLEND</h2>*!/*/}
+                <div className={"product-container"}>
+                    {/*<div className={"back-images"}>*/}
+                    {/*    <img className={"back-image-left-1"} src={backImageOne} alt={"Картинка 1 на фон"}/>*/}
+                    {/*    <img className={"back-image-left-2"} src={backImageTwo} alt={"Картинка 2 на фон"}/>*/}
+                    {/*    <img className={"back-image-right-2"} src={backImageTwo} alt={"Картинка 2 на фон"}/>*/}
+                    {/*    <img className={"back-image-right-1"} src={backImageOne} alt={"Картинка 1 на фон"}/>*/}
+                    {/*</div>*/}
+                    <div className={"block-one-container"}>
 
-                {/*        /!*    <img className={"image-block"} src={productImageOne} alt={"image block 1"}/>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*    </div>*/}
-                {/*    <div className={"block-two-container"}>*/}
-                {/*        <img className={"back-image"} src={blockBackground} alt={"background block"}/>*/}
-                {/*        /!*<div className={"block-one"}>*!/*/}
-                {/*        /!*    <h3 className={"mini-heading-block"}>TANGLY AND TINGLY</h3>*!/*/}
-                {/*        /!*    <h2 className={"heading-block"}>LIGHT ROAST BLEND</h2>*!/*/}
-                {/*        /!*    <img className={"image-block"} src={productImageOne} alt={"image block 1"}/>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*    </div>*/}
-                {/*    <div className={"block-three-container"}>*/}
-                {/*        <img className={"back-image"} src={blockBackground} alt={"background block"}/>*/}
-                {/*        /!*<div className={"block-one"}>*!/*/}
-                {/*        /!*    <h3 className={"mini-heading-block"}>TANGLY AND TINGLY</h3>*!/*/}
-                {/*        /!*    <h2 className={"heading-block"}>LIGHT ROAST BLEND</h2>*!/*/}
-                {/*        /!*    <img className={"image-block"} src={productImageOne} alt={"image block 1"}/>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                        <img className={"back-image"} src={blockBackground} alt={"background block"}/>
+                        {/*<div className={"block-one"}>*/}
+                        {/*    <h3 className={"mini-heading-block"}>TANGLY AND TINGLY</h3>*/}
+                        {/*    <h2 className={"heading-block"}>LIGHT ROAST BLEND</h2>*/}
+
+                        {/*    <img className={"image-block"} src={productImageOne} alt={"image block 1"}/>*/}
+                        {/*</div>*/}
+                    </div>
+                    <div className={"block-two-container"}>
+                        <img className={"back-image"} src={blockBackground} alt={"background block"}/>
+                        {/*<div className={"block-one"}>*/}
+                        {/*    <h3 className={"mini-heading-block"}>TANGLY AND TINGLY</h3>*/}
+                        {/*    <h2 className={"heading-block"}>LIGHT ROAST BLEND</h2>*/}
+                        {/*    <img className={"image-block"} src={productImageOne} alt={"image block 1"}/>*/}
+                        {/*</div>*/}
+                    </div>
+                    <div className={"block-three-container"}>
+                        <img className={"back-image"} src={blockBackground} alt={"background block"}/>
+                        {/*<div className={"block-one"}>*/}
+                        {/*    <h3 className={"mini-heading-block"}>TANGLY AND TINGLY</h3>*/}
+                        {/*    <h2 className={"heading-block"}>LIGHT ROAST BLEND</h2>*/}
+                        {/*    <img className={"image-block"} src={productImageOne} alt={"image block 1"}/>*/}
+                        {/*</div>*/}
+                    </div>
+                </div>
                 {/*<div className={"image-six-container"}>*/}
                 {/*    <img className={"image-six"} src={componentSix} alt={"Компонент 6"}/>*/}
                 {/*</div>*/}
