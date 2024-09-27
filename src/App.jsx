@@ -115,7 +115,6 @@ function App() {
                 {/*<div className={"heading-two-container"}>*/}
                 {/*    <h1 className={"heading-two"}>*/}
                 {/*        THE STORY BEHIND<br/>*/}
-                {/*        THE SOUCE*/}
                 {/*    </h1>*/}
                 {/*</div>*/}
                 {/*<div className={"image-eight-container"}>*/}
