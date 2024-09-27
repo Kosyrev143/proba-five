@@ -1,22 +1,22 @@
 import './App.css';
-import logo from '../public/logo.svg';
-import componentOne from '../public/image-1.svg';
-import componentTwo from '../public/image-2.svg';
-import componentThree from '../public/image-3.svg';
-import componentFour from '../public/image-4.svg';
-import componentFive from '../public/image-5.svg';
-import backImageOne from '../public/back-image-1.svg';
-import backImageTwo from '../public/back-image-2.svg';
-import blockBackground from '../public/block-back.svg';
-import productImageOne from '../public/product-image-1.svg';
-import productImageTwo from '../public/product-image-2.svg';
-import productImageThree from '../public/product-image-3.svg';
-import componentSix from '../public/image-6.svg';
-import componentSeven from '../public/image-7.svg';
-import componentEight from '../public/image-8.svg';
-import componentNine from '../public/image-9.svg';
-import componentTen from '../public/image-10.svg';
-import componentEleven from '../public/image-11.svg';
+import logo from './assets/logo.svg';
+import componentOne from './assets/image-1.svg';
+import componentTwo from './assets/image-2.svg';
+import componentThree from './assets/image-3.svg';
+import componentFour from './assets/image-4.svg';
+import componentFive from './assets/image-5.svg';
+import backImageOne from './assets/back-image-1.svg';
+import backImageTwo from './assets/back-image-2.svg';
+import blockBackground from './assets/block-back.svg';
+import productImageOne from './assets/product-image-1.svg';
+import productImageTwo from './assets/product-image-2.svg';
+import productImageThree from './assets/product-image-3.svg';
+import componentSix from './assets/image-6.svg';
+import componentSeven from './assets/image-7.svg';
+import componentEight from './assets/image-8.svg';
+import componentNine from './assets/image-9.svg';
+import componentTen from './assets/image-10.svg';
+import componentEleven from '.-./assets/image-11.svg';
 
 function App() {
 
